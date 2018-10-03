@@ -83,6 +83,9 @@ function drawArc2(){
 
 document.getElementById("text1").onkeypress = function(e) {
     e = e || event;
+	if(e.keyCode == 13){
+        this.blur();
+	}
     if (e.ctrlKey || e.altKey || e.metaKey) return;
     var chr = getChar(e);
 	if (chr == null) return;
@@ -93,6 +96,9 @@ document.getElementById("text1").onkeypress = function(e) {
 	
 document.getElementById("text2").onkeypress = function(e) {
     e = e || event;
+	if(e.keyCode == 13){
+        this.blur();
+	}
     if (e.ctrlKey || e.altKey || e.metaKey) return;
     var chr = getChar(e);
     if (chr == null) return;
@@ -103,6 +109,9 @@ document.getElementById("text2").onkeypress = function(e) {
 	
 document.getElementById("text3").onkeypress = function(e) {
     e = e || event;
+	if(e.keyCode == 13){
+        this.blur();
+	}
     if (e.ctrlKey || e.altKey || e.metaKey) return;
     var chr = getChar(e);
     if (chr == null) return;
