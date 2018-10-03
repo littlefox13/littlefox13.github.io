@@ -119,10 +119,10 @@ function getChar(event) {
     if (event.which != 0 && event.charCode != 0) {
         if (event.which < 32) return null;
 		{
-			return String.fromCharCode(event.which) // îñòàëüíûå
+			return String.fromCharCode(event.which) // Ã®Ã±Ã²Ã Ã«Ã¼Ã­Ã»Ã¥
 		}
     }
-    return null; // ñïåöèàëüíàÿ êëàâèøà
+    return null; // Ã±Ã¯Ã¥Ã¶Ã¨Ã Ã«Ã¼Ã­Ã Ã¿ ÃªÃ«Ã Ã¢Ã¨Ã¸Ã 
 };
 	
 function upd(q,x, y){
@@ -180,7 +180,7 @@ text3.onblur = function(){
 		f1.font = "35px Arial";
 		f1.fillStyle = "black";
 		f1.fillText(a+" + "+b+" = "+c,350,50);
-		alert("Ïîçäðàâëÿþ! Òû ïðàâèëüíî ðåøèë ïðèìåð!");
+		alert("ÐŸÐ¾Ð·Ð´Ñ€Ð°Ð²Ð»ÑÑŽ! Ð¢Ñ‹ Ð¿Ñ€Ð°Ð²Ð¸Ð»ÑŒÐ½Ð¾ Ñ€ÐµÑˆÐ¸Ð» Ð¿Ñ€Ð¸Ð¼ÐµÑ€!");
 	}
 	else {
 		this.style.color = "red";	
